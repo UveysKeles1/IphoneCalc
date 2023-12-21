@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.display{
+    padding: 20px;
+    width: 50%;
+    width: 340px;
+    height: 700px;
+    background-color: black;
+    margin: auto;
+    border-radius: 50px;  
+}
+
+.numberField{
+    position: relative;
+    background-color: grey;
+    width: auto;
+    height: 260px;
+    margin-top: 20px;
+}
+
+.numberField #result{
+    font-size: 5rem;
+    font-weight: 250;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.buttonRow1 #AC, #round, #prozent, #divide {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:5px;
+    border: white;
+    font-size: 30px;
+}
+
+.buttonRow2 #sieben, #acht, #neun, #x{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:5px;
+    border: white;
+    font-size: 30px;
+}
+
+.buttonRow3 #vier,#fünf, #sechs,#minus{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:5px;
+    border: white;
+    font-size: 30px;
+}
+
+.buttonRow4 #eins,#zwei,#drei,#plus{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:5px;
+    border: white;
+    font-size: 30px; 
+}
+
+.buttonRow5 #komma,#equal,#zero{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:5px;
+    border: white;
+    font-size: 30px; 
+}
+
+#zero{
+    width: 150px;
+    border-radius:25% / 50%;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.buttonRow1, .buttonRow2, .buttonRow3, .buttonRow4, .buttonRow5{
+    margin-top: 5px;
+}
